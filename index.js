@@ -1,3 +1,3 @@
 module.exports = (req, res) => {
-  res.end({ works: 'true' });
+  res.end('I\'m rendered by Zeit Now via GitHub Actions!');
 };
