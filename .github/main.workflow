@@ -5,6 +5,6 @@ workflow "New workflow" {
 
 action "GitHub Action for Zeit" {
   uses = "actions/zeit-now@master"
-  args = "--public deploy"
+  args = "deploy"
   secrets = ["ZEIT_TOKEN"]
 }
